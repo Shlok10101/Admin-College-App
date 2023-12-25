@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Admin College app</string>
+    <string name="pdf_title">PDF Title</string>
+    <string name="no_file_selected">No File Selected</string>
+    <string name="shlok0531_gmail_com">Shlok0531@gmail.com</string>
+    <string name="update_info">Update info</string>
+    <string name="shlok_aggrawal">Shlok Aggrawal</string>
+    <string name="Shlok_Aggrawal">Shlok Aggrawal</string>
+    <string name="android_developer">Android Developer</string>
+</resources>

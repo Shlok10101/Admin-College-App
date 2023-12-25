@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".notice.uploadNotice">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/addImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardElevation="100dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Primary"
+        app:cardCornerRadius="50dp">
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_image" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="111dp"
+            android:layout_height="30dp"
+            android:text="Upload Image"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/noticeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Notice title" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/uploadNoticeBtn"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Primary"
+            android:text="Upload Image"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+            android:textColor="@color/textColor"/>
+        
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/noticeImageView"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"/>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>
